@@ -1,5 +1,0 @@
-
-[[redirects]]
-  from = "/callback"
-  to = "/index.html"
-  status = 200
