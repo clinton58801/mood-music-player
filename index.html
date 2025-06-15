@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mood Music Player</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <h1>Mood Music Player</h1>
+    <select id="mood-select">
+      <option value="">Select your mood</option>
+      <option value="happy">Happy</option>
+      <option value="sad">Sad</option>
+      <option value="calm">Calm</option>
+      <option value="energetic">Energetic</option>
+      <option value="romantic">Romantic</option>
+      <option value="focused">Focused</option>
+      <option value="angry">Angry</option>
+      <option value="chill">Chill</option>
+      <option value="nostalgic">Nostalgic</option>
+      <option value="confident">Confident</option>
+    </select>
+    <button id="spotify-connect">Connect to Spotify</button>
+    <a id="spotify-link" href="#">
+      <img src="spotify-logo.svg" alt="Spotify" width="120" />
+    </a>
+    <p id="error-message" style="color: red;"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
