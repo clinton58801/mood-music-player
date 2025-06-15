@@ -9,7 +9,7 @@ document.getElementById("spotify-connect").addEventListener("click", function ()
     return;
   }
 
-  const clientId = "f203424cad714093b5c8396227fe6c93";
+   const clientId = "f203424cad714093b5c8396227fe6c93";
   const redirectUri = "https://euphonious-meringue-d87f96.netlify.app/callback";
   const scopes = "user-read-private user-read-email";
 
