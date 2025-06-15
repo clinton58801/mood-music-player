@@ -1,5 +1,8 @@
 
-document.getElementById("spotify-connect").addEventListener("click", function () {
+
+  document.getElementById("spotify-connect").addEventListener("click", function (event) {
+  event.preventDefault(); // This stops the page from reloading
+
   const mood = document.getElementById("mood-select").value;
   const errorMessage = document.getElementById("error-message");
   errorMessage.textContent = "";
